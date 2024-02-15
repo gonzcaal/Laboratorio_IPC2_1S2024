@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<pisosGuatemala>
+    <piso nombre="ejemplo01">
+        <R> 2 </R>
+        <C> 4 </C>
+        <F> 1 </F>
+        <S> 1 </S>
+        <patrones>
+            <patron codigo="cod11">
+                BNBNBBBN
+            </patron>
+            <patron codigo="cod12">
+                NBNBBBBB
+            </patron>
+        </patrones>
+    </piso>
+    <piso nombre="ejemplo02">
+        <R> 3 </R>
+        <C> 3 </C>
+        <F> 1 </F>
+        <S> 1 </S>
+        <patrones>
+            <patron codigo="cod21">
+                BNNNBNBBB
+            </patron>
+            <patron codigo="cod22">
+                BBBBNBBBN
+            </patron>
+        </patrones>
+    </piso>
+    <piso nombre="ejemplo03">
+        <R> 1 </R>
+        <C> 5 </C>
+        <F> 1000 </F>
+        <S> 1 </S>
+        <patrones>
+            <patron codigo="cod31">
+                BNNNN
+            </patron>
+            <patron codigo="cod32">
+                NNNBB
+            </patron>
+        </patrones>
+    </piso>
+</pisosGuatemala>

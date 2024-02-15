@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<senales>
+    <senal nombre="Prueba 1" t="5" A="4" color ="rojo">
+        <dato t="1" A="1">2</dato>
+        <dato t="1" A="2">3</dato>
+        <dato t="1" A="3">0</dato>
+        <dato t="1" A="4">4</dato>
+        <dato t="2" A="1">0</dato>
+
+    </senal>
+
+    <senal nombre="Prueba 2" t="10" A="4">
+        <dato t="1" A="1">4</dato>
+        <dato t="1" A="2">5</dato>
+    </senal>
+
+    <senal nombre="Prueba 3" t="5" A="5">
+        <dato t="1" A="1">10</dato>
+        <dato t="1" A="2">valor aleatorio</dato>
+    </senal>
+
+    
+    <senal nombre="Prueba 4" t="5" A="5">
+
+    </senal>
+
+    <senal nombre="Prueba N" t="0" A="0" color ="verde">
+        <dato t="1" A="1">10</dato>
+    </senal>
+    
+</senales>

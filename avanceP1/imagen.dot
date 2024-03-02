@@ -1,0 +1,26 @@
+digraph TablaBasica{
+node [shape=plaintext];
+Tabla1 [label=<
+ <table border="1" cellspacing="0">
+<tr>
+<td>     </td>
+<td>     </td>
+</tr>
+<tr>
+<td>     </td>
+<td>     </td>
+</tr>
+<tr>
+<td>     </td>
+<td>     </td>
+</tr>
+<tr>
+<td>     </td>
+<td>     </td>
+</tr>
+<tr>
+<td>     </td>
+<td>     </td>
+</tr>
+</table>>];
+}

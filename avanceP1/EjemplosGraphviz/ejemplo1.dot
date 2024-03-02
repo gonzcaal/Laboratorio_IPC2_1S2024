@@ -1,0 +1,18 @@
+digraph G {
+rankdir=TB;
+
+nodeRoot [shape=circle, label=" PRUEBA XML  "]
+nodeTiempo [shape=circle, label=" t=5  "]
+nodeAmplitud [shape=circle, label=" a=4  "]
+
+nodeRoot -> nodeTiempo
+nodeRoot -> nodeAmplitud
+nodeRoot -> node1
+
+
+node1 [shape=oval, label=" Nodo 7  "]
+node2 [shape=oval, label=" Nodo12  "]
+
+
+node1 -> node2
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<pisosGuatemala>
+    <piso nombre="pisoTrending">
+    <R>9</R>
+    <C>1</C>
+    <F>323</F>
+    <S>155</S>
+    <patrones>
+        <patron codigo="C1">BNBNBNBNB</patron>
+        <patron codigo="C4">BNBNBNBNB</patron>
+        <patron codigo="C5">BNBNBNBNB</patron>
+        <patron codigo="C3">BNBNBNBNB</patron>
+    </patrones>
+    </piso>
+    <piso nombre="arribaPiso">
+    <R>1</R>
+    <C>9</C>
+    <F>323</F>
+    <S>155</S>
+    <patrones>
+        <patron codigo="COD_ABC">BNBNBNBNB</patron>
+        <patron codigo="COD_BCA">BNBNBNBNB</patron>
+        <patron codigo="COD_CAB">BNBNBNBNB</patron>
+        <patron codigo="COD_ACB">BNBNBNBNB</patron>
+    </patrones>
+    </piso>
+    <piso nombre="cuartoArriba">
+    <R>4</R>
+    <C>3</C>
+    <F>50</F>
+    <S>40</S>
+    <patrones>
+        <patron codigo="patronA">NBNBNBNNBNBN</patron>
+        <patron codigo="patronM">BNNNBNNNNNBN</patron>
+        <patron codigo="patronP">NNNBNBNNBNNN</patron>
+    </patrones>
+    </piso>
+</pisosGuatemala>

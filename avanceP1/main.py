@@ -184,7 +184,7 @@ lista_pisos.agregar_nodo(piso_ejemplo04)
 
 
 #buscar el archivo XML (ubicacion)
-tree = ET.parse('entrada.xml')
+tree = ET.parse('archivo3.xml')
 
 #se obtiene toda la raiza del archivo xml 
 root = tree.getroot()
@@ -232,7 +232,7 @@ while True:
         lista_pisos.mostrar_piso(nombre_piso)
     elif opcion == "3":
         #METODO PARA GRAFICAR
-        lista_pisos.graficarPatron("pisoIPC2", "codIPC2_2","imagen")
+        lista_pisos.graficarPatron("Banio", "C12","imagen")
         print() 
         
     elif opcion == "4":

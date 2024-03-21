@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<pisosGuatemala>
+    <piso nombre="Cocina">
+        <R>5</R>
+        <C>6</C>
+        <F>387</F>
+        <S>6</S>
+    <patrones>
+        <patron codigo="C00">NNNBBBBBBBNNNNBNNNNBBNNBBNBNBN</patron>
+        <patron codigo="C01">NNNBBBBNBBBBNBNNNNBBNNNBBNBNBN</patron>
+        <patron codigo="C02">NNNNNNBNNNNBBNNNBBBNNNNBBBNNBN</patron>
+    </patrones>
+    </piso>
+
+    <piso nombre="Salon">
+        <R>10</R>
+        <C>2</C>
+        <F>170</F>
+        <S>89</S>
+    <patrones>
+        <patron codigo="C20">NBBBNNNNBBNBNNBBNBNB</patron>
+        <patron codigo="C21">NBNNNNBBNNNBNNBNBNBN</patron>
+        <patron codigo="C22">NNNBBBNNNBBNBBNNBNBN</patron>
+        <patron codigo="C23">NNNNNBNNNBNBNBBNBNNB</patron>
+        <patron codigo="C24">NNNNBNNBBBNBBBNNBNNB</patron>
+        <patron codigo="C25">NNBBBBNNNNBBNBBNNBNB</patron>
+        <patron codigo="C26">BBBNNNNNBBNNBBNBBNBN</patron>
+        <patron codigo="C27">BBBNNNNBBBBNNBNNBNBN</patron>
+    </patrones>
+    </piso>
+    <piso nombre="Dormitorio">
+        <R>8</R>
+        <C>15</C>
+        <F>378</F>
+        <S>200</S>
+    <patrones>
+        <patron codigo="C30">NNNNNNNNNNNNNNNNNNNNNNNNNNBBBBBBBBBBBBBBBNNNNNNNNNNNNNNNNNNNNBBBBBBBBBBNNNNNNNNBBBBBBBBBBNNNBNBBBNNNNNNBNNBBBNNNBBNBNBNB</patron>
+        <patron codigo="C31">BBBBBBBBBBBBBBBBBBNNNNNNNNNNNNNNBBBBBBBBBBBBBNNNNNNBBBBNNNNBBBBBBBBBBBBNNBBBBNNNBBBBBBBBBNNNBNBBBNNNNNNBNNBBBNNNBBNBNBNB</patron>
+    </patrones>
+    </piso>
+    <piso nombre="Comedor">
+        <R>16</R>
+        <C>12</C>
+        <F>393</F>
+        <S>20</S>
+    <patrones>
+        <patron codigo="C40">NNNNNNBBBBBBBBNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNBBBBBNNNNNNNNNNNNNNNNNNNNNNBBBBBBBBBBBBBBBBBBNNNNNNNNNNNNNNNNNNBBBBBBNNNNNNNNNNNBBBBBBBBBBBBBNBBBNNNNNNNNBBNNNNBBBBBBNNNNBBBBBNNBNBNBBNBNBN</patron>
+        <patron codigo="C41">BBBBBBBBBBBBBBBBBBBBBBBBBBBNNNNNNNNNNBBBBBBBBBBBBBBBBBBBBBNNNNNNNNNNNNNNNNNNNNNNBBBBBBBBBBBBBBBBBBBNNNNNNBBBBBBBBBBBBBBBBBBBBBNNNNNNNNNNNNNBNNNNNNNNBBBBBBBNNNNNNNBBBBBBBBNNNNBBBBBNNBNBNBBNBNBN</patron>
+    </patrones>
+    </piso>
+    <piso nombre="Lavanderia">
+        <R>5</R>
+        <C>7</C>
+        <F>313</F>
+        <S>300</S>
+    <patrones>
+        <patron codigo="C50">NNNNNNNNBBBBNNBBNNNNBBBNNBBNBNBNBNB</patron>
+        <patron codigo="C51">NNNNNNNBBNNNNNBBNNNNNBNNBBBNNBNBNBN</patron>
+        </patrones>
+    </piso>
+</pisosGuatemala>

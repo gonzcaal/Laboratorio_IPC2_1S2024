@@ -1,0 +1,13 @@
+{
+    "persona":{
+        "nombre": "Josue",
+        "edad": 27,
+        "ciudad" :"Ciudad de Guatemala",
+        "trabajo": "Ingeniero en Sistemas",
+        "intereses": ["Programacion", "animales", "viajes", "comida"],
+        "contacto": {
+            "email": "gonzcaal@gmail.com",
+            "telefono":"47913289"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "ANA PAULA",
+        "edad": 27,
+        "ciudad": "Ciudad de Guatemala",
+        "trabajo": "Ingeniero en Sistemas",
+        "intereses": [
+            "Programacion",
+            "animales",
+            "viajes",
+            "comida"
+        ],
+        "contacto": {
+            "email": "gonzcaal@gmail.com",
+            "telefono": "47913289"
+        }
+    },
+    {
+        "nombre": "ROcio",
+        "edad": 27,
+        "ciudad": "Ciudad de Guatemala",
+        "trabajo": "Ingeniero en Sistemas",
+        "intereses": [
+            "Programacion",
+            "animales",
+            "viajes",
+            "comida"
+        ],
+        "contacto": {
+            "email": "rocio@gmail.com",
+            "telefono": "47913289"
+        }
+    },
+    {
+        "nombre": "Mario",
+        "edad": 27,
+        "ciudad": "Ciudad de Guatemala",
+        "trabajo": "Ingeniero en Sistemas",
+        "intereses": [
+            "Programacion",
+            "animales",
+            "viajes",
+            "comida"
+        ],
+        "contacto": {
+            "email": "mario@gmail.com",
+            "telefono": "11111111"
+        }
+    }
+]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ingresoAnimales>
+    <perro>
+        <edad>3 años</edad>
+        <raza> Chiuaua</raza>
+    </perro>
+
+    <gato>
+        <edad>1 años</edad>
+        <raza> Siames</raza>
+    </gato>
+
+    <cocodrilo>
+        <edad>5 años</edad>
+        <raza> Indefinida</raza>
+    </cocodrilo>
+
+    <lagartija>
+        <edad>3 meses </edad>
+        <raza> Infedinida</raza>
+    </lagartija>
+
+    <perro>
+        <edad>1 mes</edad>
+        <raza> french </raza>
+    </perro>
+
+    <conejo>
+        <edad>8 meses</edad>
+        <raza> Holandes </raza>
+    </conejo>
+
+    <perro>
+        <edad>100 años</edad>
+        <raza> french </raza>
+    </perro>
+
+</ingresoAnimales>

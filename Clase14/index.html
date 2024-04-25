@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Practica 3</title>
+</head>
+
+<body>
+    <h1> MENU </h1>
+
+    <ul>
+        <li> <button onclick="borrarDatos()"> Borrar Datos</button></li>
+        <li>
+            <input type="file" id="fileinput" accept=".xml" onchange="mostrarPrevisualizacion()">
+            <textarea id="filePreview" rows="30" cols="100" readonly></textarea>
+            <button onclick="cargarXML()"> Cargar XML </button>
+        </li>
+        <li> <button onclick="procesarDatos()"> Procesar Datos</button></li>
+        <li> <button onclick="mostrarDatosEstudiante()"> Datos del Estudiante</button></li>
+    </ul>
+
+    <div id="animalData">
+
+    </div>
+
+    <!--
+    "la etiqueta script sirve para las funciones JS que se llaman en los botones"
+-->
+
+    <script>
+        function borrarDatos(){
+            fetch('http://localhost:5000/borrar-datos', {
+                method: 'DELETE'
+            })
+            .then (response => {
+                if (response.ok){
+                    alert('Datos borrados correctamente')
+                }else{
+                    throw new Error ('Error al borrar los datos')
+                }
+            })
+            .catch(error => {
+                console.error('Error: ', error)
+            });
+        }
+
+        function mostrarPrevisualizacion(){
+            var fileInput= document.getElementById('fileinput');
+            var filePreview= document.getElementById('filePreview');
+            var file = fileInput.files[0];
+
+            var reader = new FileReader();
+            reader.onload=function(event){
+                filePreview.textContent=event.target.result;
+            }
+            reader.readAsText(file);
+        }
+
+        function cargarXML(){
+            var fileInput=document.getElementById('fileinput');
+            var file = fileInput.files[0];
+            var formData= new FormData();
+
+            formData.append('file', file);
+
+            fetch('http://localhost:5000/cargar-xml', {
+                method: 'POST',
+                body: formData
+            })
+            .then (respose => response.text())
+            .then (data => {
+                alert('XML cargado correctamente');
+            })
+            .catch(error => {
+                console.error('Error: ', error);
+            });
+        }
+
+        function procesarDatos(){
+            fetch('http://localhost:5000/procesar-datos')
+            .then (response => response.json())
+            .then(data =>{
+                var animalData= document.getElementById('animalData');
+                animalData.innerHTML='';
+
+                data.forEach(animal => {
+                    var animalElment= document.createElement('div');
+                    animalElment.innerHTML= `
+                        <p>Edad: ${animal.edad}</p>
+                        <p>Raza: ${animal.raza}</p>
+                        <hr>
+                    `;
+                    animalData.appendChild(animalElment);
+                });
+            })
+          
+            .catch(error => {
+                console.error('Error: ', error);
+            });
+        }
+
+        function mostrarDatosEstudiante(){
+
+        }
+
+
+    </script>
+
+</body>
+
+</html>
